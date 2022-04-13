@@ -259,7 +259,7 @@ function joinShop() {
                             if (res.message == "活动太火爆，请稍后再试") {
 
                                 console.log("开始重试")
-                                await joinShop()
+                                //await joinShop()
                             }
                         }
                     } else if (typeof res == 'object' && res.message) {
