@@ -13,7 +13,7 @@ from gevent.queue import Queue
 from requests.exceptions import ProxyError, ConnectionError
 from urllib3.exceptions import MaxRetryError
 
-PROXY_URL = "123456"
+PROXY_URL = "http://api.xiequ.cn/VAD/GetIp.aspx?act=get&uid=83676&vkey=AB414425C484C4B7FCAA7BE060E3D0AF&num=1&time=30&plat=1&re=1&type=1&so=3&ow=1&spl=1&addr=&db=1"
 
 requests.packages.urllib3.disable_warnings()
 
