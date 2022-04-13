@@ -482,7 +482,7 @@ async function dealReturn(type, data) {
         if (typeof res == 'object') {
             if (res.errorMessage) {
                 if (res.errorMessage.indexOf('火爆') > -1) {
-                    $.hotFlag = true
+                    $.hotFlag = false
                 }
             }
         }
